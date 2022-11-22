@@ -4,6 +4,7 @@ Project 4
 MainCopy.cpp is for problems 4-6, while Main.cpp is parallelized. To compile Main.cpp:
 
 g++ -o3  Main.cpp -larmadillo  -o Main.exe -fopenmp
+
 export OMP_NUM_THREADS=8
 
 to run Main.cpp:
